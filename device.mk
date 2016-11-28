@@ -30,9 +30,5 @@ PRODUCT_PACKAGES += \
     init.target.rc \
     init.felica.sh
 
-# NFC
-PRODUCT_PACKAGES += \
-    NfcSony
-
 # common klte
 $(call inherit-product, device/samsung/klte-common/klte.mk)
